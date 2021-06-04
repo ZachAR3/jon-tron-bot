@@ -407,3 +407,161 @@
 03/06/2021 17:49:11: bots: ZachAR3#5322: jon play hi
 03/06/2021 17:49:25: bots: ZachAR3#5322: jon play 1
 03/06/2021 17:50:24: bots: ZachAR3#5322: jon leave
+03/06/2021 23:33:10: bots: ZachAR3#5322: jon reload music
+03/06/2021 23:33:23: bots: ZachAR3#5322: jon play southpark poker facr
+03/06/2021 23:33:30: bots: ZachAR3#5322: jon play 1
+03/06/2021 23:35:28: bots: ZachAR3#5322: jon volume 50
+03/06/2021 23:35:37: bots: ZachAR3#5322: jon volume 10
+03/06/2021 23:35:47: bots: ZachAR3#5322: jon volume 1
+03/06/2021 23:35:52: bots: ZachAR3#5322: jon volume 100
+03/06/2021 23:49:06: bots: ZachAR3#5322: jon reload music
+03/06/2021 23:49:14: bots: ZachAR3#5322: jon play 10s vid
+03/06/2021 23:51:26: bots: ZachAR3#5322: jon reload music
+03/06/2021 23:51:30: bots: ZachAR3#5322: jon play 10s vid
+03/06/2021 23:51:35: bots: ZachAR3#5322: jon play 1
+03/06/2021 23:52:10: bots: ZachAR3#5322: jon reload music
+03/06/2021 23:52:14: bots: ZachAR3#5322: jon play 10s vid
+03/06/2021 23:52:19: bots: ZachAR3#5322: jon play 1
+03/06/2021 23:52:49: bots: ZachAR3#5322: jon reload music
+03/06/2021 23:52:51: bots: ZachAR3#5322: jon play 10s vid
+03/06/2021 23:52:53: bots: ZachAR3#5322: jon play 1
+03/06/2021 23:54:51: bots: ZachAR3#5322: jon reload music
+03/06/2021 23:54:55: bots: ZachAR3#5322: jon play 5s vid
+03/06/2021 23:55:03: bots: ZachAR3#5322: jon play 5s vid
+03/06/2021 23:55:17: bots: ZachAR3#5322: jon play 10s vid
+03/06/2021 23:55:20: bots: ZachAR3#5322: jon play 1
+03/06/2021 23:56:10: bots: ZachAR3#5322: jon reload music
+03/06/2021 23:56:13: bots: ZachAR3#5322: jon play hi
+03/06/2021 23:56:15: bots: ZachAR3#5322: jon play 1
+03/06/2021 23:56:38: bots: ZachAR3#5322: jon reload music
+03/06/2021 23:56:41: bots: ZachAR3#5322: jon play hi
+03/06/2021 23:56:43: bots: ZachAR3#5322: jon play 1
+04/06/2021 00:00:11: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:00:17: bots: ZachAR3#5322: jon play 10s video
+04/06/2021 00:00:20: bots: ZachAR3#5322: jon play 1
+04/06/2021 00:00:39: bots: ZachAR3#5322: jon play 1 loop
+04/06/2021 00:00:53: bots: ZachAR3#5322: jon play 10s video
+04/06/2021 00:01:42: bots: ZachAR3#5322: jon play 1 True
+04/06/2021 00:01:49: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:01:54: bots: ZachAR3#5322: jon play 1 loop
+04/06/2021 00:02:05: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:02:19: bots: ZachAR3#5322: jon play 1True
+04/06/2021 00:04:41: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:04:45: bots: ZachAR3#5322: jon play 10s video
+04/06/2021 00:04:52: bots: ZachAR3#5322: jon play 1 loop
+04/06/2021 00:06:55: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:06:58: bots: ZachAR3#5322: jon play 10s video
+04/06/2021 00:07:02: bots: ZachAR3#5322: jon play 1 loop
+04/06/2021 00:07:21: bots: ZachAR3#5322: jon play 10s video
+04/06/2021 00:07:26: bots: ZachAR3#5322: jon play 1 True
+04/06/2021 00:08:26: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:08:29: bots: ZachAR3#5322: jon play 10s video
+04/06/2021 00:08:34: bots: ZachAR3#5322: jon play 1 loop
+04/06/2021 00:09:55: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:10:00: bots: ZachAR3#5322: jon play 10s vid loop
+04/06/2021 00:10:08: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:12:37: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:12:39: bots: ZachAR3#5322: jon plau 10s vid
+04/06/2021 00:12:47: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:12:52: bots: ZachAR3#5322: jon play 1
+04/06/2021 00:14:42: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:14:45: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:14:48: bots: ZachAR3#5322: jon play 1
+04/06/2021 00:14:51: bots: ZachAR3#5322: jon loop
+04/06/2021 00:15:07: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:15:12: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:15:15: bots: ZachAR3#5322: jon play 1
+04/06/2021 00:15:17: bots: ZachAR3#5322: jon loop
+04/06/2021 00:15:59: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:16:06: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:16:12: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:17:20: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:17:27: bots: ZachAR3#5322: jon play 1
+04/06/2021 00:17:29: bots: ZachAR3#5322: jon loop
+04/06/2021 00:20:08: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:20:12: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:20:16: bots: ZachAR3#5322: jon play 1
+04/06/2021 00:20:18: bots: ZachAR3#5322: jon loop
+04/06/2021 00:21:07: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:21:10: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:21:12: bots: ZachAR3#5322: jon loop
+04/06/2021 00:21:35: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:21:38: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:21:41: bots: ZachAR3#5322: jon play 1
+04/06/2021 00:21:44: bots: ZachAR3#5322: jon loop
+04/06/2021 00:23:13: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:23:17: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 00:23:21: bots: ZachAR3#5322: jon play 1
+04/06/2021 00:23:24: bots: ZachAR3#5322: jon loop
+04/06/2021 00:24:16: bots: ZachAR3#5322: jon reload music
+04/06/2021 00:24:21: bots: ZachAR3#5322: jon pl 10s vid
+04/06/2021 00:24:23: bots: ZachAR3#5322: jon pl 1
+04/06/2021 00:24:26: bots: ZachAR3#5322: jon loop
+04/06/2021 02:41:27: bots: ZachAR3#5322: Jon leave
+04/06/2021 13:58:01: bots: ZachAR3#5322: jon reload music
+04/06/2021 13:58:07: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 13:58:10: bots: ZachAR3#5322: jon play 1
+04/06/2021 13:58:14: bots: ZachAR3#5322: jon loop
+04/06/2021 13:58:41: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 13:58:49: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 13:58:58: bots: ZachAR3#5322: jon play 2
+04/06/2021 13:59:03: bots: ZachAR3#5322: jon loop
+04/06/2021 13:59:53: bots: ZachAR3#5322: jon reload music
+04/06/2021 13:59:56: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:00:01: bots: ZachAR3#5322: jon play 1
+04/06/2021 14:00:08: bots: ZachAR3#5322: jon loop
+04/06/2021 14:00:25: bots: ZachAR3#5322: jon stop
+04/06/2021 14:00:48: bots: ZachAR3#5322: jon reload music
+04/06/2021 14:00:51: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:00:55: bots: ZachAR3#5322: jon play 2
+04/06/2021 14:01:00: bots: ZachAR3#5322: jon loop
+04/06/2021 14:04:46: bots: ZachAR3#5322: jon reload music
+04/06/2021 14:04:49: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:04:52: bots: ZachAR3#5322: jon play 2
+04/06/2021 14:04:56: bots: ZachAR3#5322: jon loop
+04/06/2021 14:07:11: bots: ZachAR3#5322: jon reload music
+04/06/2021 14:07:14: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:07:17: bots: ZachAR3#5322: jon play 2
+04/06/2021 14:07:19: bots: ZachAR3#5322: jon loop
+04/06/2021 14:08:48: bots: ZachAR3#5322: jon reload music
+04/06/2021 14:08:51: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:08:55: bots: ZachAR3#5322: jon play 2
+04/06/2021 14:08:57: bots: ZachAR3#5322: jon loop
+04/06/2021 14:12:16: bots: ZachAR3#5322: jon reload music
+04/06/2021 14:12:19: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:12:22: bots: ZachAR3#5322: jon play 2
+04/06/2021 14:12:26: bots: ZachAR3#5322: jon loop
+04/06/2021 14:13:40: bots: ZachAR3#5322: jon reload music
+04/06/2021 14:13:42: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:13:47: bots: ZachAR3#5322: jon play 2
+04/06/2021 14:13:56: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:14:04: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:14:09: bots: ZachAR3#5322: jon play 2
+04/06/2021 14:14:15: bots: ZachAR3#5322: jon loop
+04/06/2021 14:14:55: bots: ZachAR3#5322: jon stop
+04/06/2021 14:15:00: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:15:04: bots: ZachAR3#5322: jon play 2
+04/06/2021 14:15:27: bots: ZachAR3#5322: jon play 10s vid
+04/06/2021 14:15:30: bots: ZachAR3#5322: jon play 2
+04/06/2021 14:15:36: bots: ZachAR3#5322: jon loop
+04/06/2021 14:15:49: bots: ZachAR3#5322: jon play 20s vid
+04/06/2021 14:15:58: bots: ZachAR3#5322: jon play 1
+04/06/2021 14:16:16: bots: ZachAR3#5322: jon stop
+04/06/2021 14:20:32: bots: ZachAR3#5322: jon reload music
+04/06/2021 14:20:38: bots: ZachAR3#5322: jon play spooky pumpkins
+04/06/2021 14:20:50: bots: ZachAR3#5322: jon play spooky pumpkins
+04/06/2021 14:21:03: bots: ZachAR3#5322: jon play kool man go gr
+04/06/2021 14:21:08: bots: ZachAR3#5322: jon play 1
+04/06/2021 14:21:16: bots: ZachAR3#5322: jon volume 50
+04/06/2021 14:21:47: bots: ZachAR3#5322: jon reload music
+04/06/2021 14:21:53: bots: ZachAR3#5322: jon play scary skeletons
+04/06/2021 14:22:02: bots: ZachAR3#5322: jon stop
+04/06/2021 14:22:11: bots: ZachAR3#5322: jon play spooky
+04/06/2021 14:22:18: bots: ZachAR3#5322: jon play 1
+04/06/2021 14:22:23: bots: ZachAR3#5322: jon volume 40
+04/06/2021 14:22:30: bots: ZachAR3#5322: jon volume 1
+04/06/2021 14:22:36: bots: ZachAR3#5322: jon volume 100
+04/06/2021 14:22:41: bots: ZachAR3#5322: jon volume 1
+04/06/2021 14:22:48: bots: ZachAR3#5322: jon play scary skeletons
+04/06/2021 14:23:10: bots: ZachAR3#5322: jon pl bitch lasagna
+04/06/2021 14:23:19: bots: ZachAR3#5322: jon play 5
