@@ -47,4 +47,4 @@ for filename in os.listdir("./cogs"):
         client.load_extension(f"cogs.{filename[:-3]}")
 
 
-client.run("replace with your discord bot ID")  # starts the bot
+client.run("replace with bot id")  # starts the bot

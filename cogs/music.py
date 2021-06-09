@@ -27,6 +27,7 @@ class music(commands.Cog):
     async def play(self, ctx, *, url: str):
         await ctx.channel.purge(limit=1)
         sUrl = str(url).lower()
+        select_result = ["1", "2", "3", "4", "5"]
 
         # Checks if you are passing in a url. If so it skips the rest of these steps
         if str(url).startswith("https://"):
@@ -34,7 +35,7 @@ class music(commands.Cog):
 
         # Checks if you are selecting a song out of a selection. If so it splices the url-
         # -together with the result you choose
-        elif sUrl == "1" or sUrl == "2" or sUrl == "3" or sUrl == "4" or sUrl == "5":
+        elif sUrl in select_result:
             print(url)
             url = "https://www.youtube.com" + str(self.results[int(url.split(" ")[0]) - 1]['url_suffix'])
             print(url)
