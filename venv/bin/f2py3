@@ -1,4 +1,4 @@
-#!/home/zach/PycharmProjects/Jon-Tron-Bot-Public/venv/bin/python
+#!/mnt/Productivity/Coding/Python/jon-tron-bot/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

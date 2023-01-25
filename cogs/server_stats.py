@@ -66,5 +66,5 @@ class server_statsCL(commands.Cog):
             await message.channel.send("", file=file, delete_after=15)
 
 
-def setup(client):
-    client.add_cog(server_statsCL(client))
+async def setup(client):
+    await client.add_cog(server_statsCL(client))

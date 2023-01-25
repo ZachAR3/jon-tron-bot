@@ -33,13 +33,13 @@ class loadingCogs(commands.Cog):
         await ctx.channel.purge(limit=1)
         print("reload")
         try:
-            self.client.unload_extension(f"cogs.{extension}")
-            self.client.load_extension(f"cogs.{extension}")
+            await(self.client.unload_extension(f"cogs.{extension}"))
+            await (self.client.load_extension(f"cogs.{extension}"))
             await ctx.send(f"```Reloaded: {extension}```", delete_after=15)
             pass
         except:
             await ctx.send(f"```ERROR Cog:{extension}, does not exist```", delete_after=15)
 
 
-def setup(client):
-    client.add_cog(loadingCogs(client))
+async def setup(client):
+    await client.add_cog(loadingCogs(client))

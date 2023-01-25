@@ -71,5 +71,5 @@ class soundEffects(commands.Cog):
             pass
 
 
-def setup(client):
-    client.add_cog(soundEffects(client))
+async def setup(client):
+    await client.add_cog(soundEffects(client))

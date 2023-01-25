@@ -33,6 +33,6 @@ class _8ball(commands.Cog):
         await ctx.send(f"```Question: {question}\nAnswer: {random.choice(responses)}```", delete_after=15)
 
 
-def setup(client):
-    client.add_cog(_8ball(client))
+async def setup(client):
+    await client.add_cog(_8ball(client))
 

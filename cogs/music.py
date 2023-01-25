@@ -5,7 +5,7 @@ import requests
 import asyncio
 import shutil
 import time
-import pafy
+import apafy
 import youtube_dl
 from youtube_search import YoutubeSearch
 
@@ -30,15 +30,15 @@ class music(commands.Cog):
         select_result = ["1", "2", "3", "4", "5"]
 
         # Checks if you are passing in a url. If so it skips the rest of these steps
-        if str(url).startswith("https://"):
+        if str(url).startswith("https://") or str(url).startswith("www."):
             pass
 
         # Checks if you are selecting a song out of a selection. If so it splices the url-
         # -together with the result you choose
         elif sUrl in select_result:
-            print(url)
+            print("old" + url)
             url = "https://www.youtube.com" + str(self.results[int(url.split(" ")[0]) - 1]['url_suffix'])
-            print(url)
+            print("new" + url)
         # If you aren't passing in a url or selecting a song it assumes you are searching for one and uses the-
         # YoutubeSearch library and prints the results
         else:
@@ -51,7 +51,7 @@ class music(commands.Cog):
                     await ctx.send(f"#**{self.i + 1}** {(self.results[self.i]['title'])}", delete_after=15)
                     self.i += 1
                     time.sleep(0.2)
-                return
+                #return
             except:
                 pass
         try:
@@ -59,6 +59,7 @@ class music(commands.Cog):
             voice = get(self.client.voice_clients, guild=ctx.guild)
             channel = ctx.author.voice.channel
         except:
+            return await ctx.send("No users in VC")
             return
         try:
             # Checks if the bot is playing audio. If so it stops it.
@@ -75,12 +76,13 @@ class music(commands.Cog):
             voice = await channel.connect()
 
         # Checks if the url starts with https:// and is ready to be played.
-        # If it is it creates a new link that FFmoegOpus can play using pafy and downloads the thumbnail.
-        # It then sends the a message saying it is playing the song along with the thumbnail and a timestamp before-
+        # If it is it creates a new link that FFmpegOpus can play using pafy and downloads the thumbnail.
+        # It then sends a message saying it is playing the song along with the thumbnail and a timestamp before-
         # -playing the audio and then setting the global url used for looping (gUrl) to be the currently played videos-
         # -url
-        if url.startswith("https://"):
-            video = pafy.new(url)
+        if str(url).startswith("https://") or str(url).startswith("www."):
+            video = apafy.new(url)
+            print("testing 0")
             best = video.getbestaudio()
             thumbURL = video.thumb
             resp = requests.get(thumbURL, stream=True)
@@ -90,12 +92,15 @@ class music(commands.Cog):
             del resp
             thumbI.close()
             file = discord.File("thumb.jpg")
+            print("testing 1")
             self.channel = ctx.channel
             voice.play(discord.FFmpegOpusAudio(best.url), after=lambda e: self.after(voice))
+            print("testing:2" + best.url)
             self.message = await ctx.send(f"```Now playing: {video.title}: {video.duration}```", file=file)
             self.gUrl = best.url
+            print("testing 3")
 
-    # Causes jon to leave the channel
+    #Causes jon to leave the channel
     @commands.command(aliases=["l"])
     async def leave(self, ctx):
         await ctx.channel.purge(limit=1)
@@ -141,7 +146,7 @@ class music(commands.Cog):
 
     # sets looping to true
     @commands.command()
-    async def loop(self):
+    async def loop(self, ctx):
         self.gLoop = True
 
     # Non working volume command im assuming is because im not using the PCMVOLUME class
@@ -151,7 +156,8 @@ class music(commands.Cog):
     #     if ctx.voice_client is None:
     #         return await ctx.send("Not connected to a channel.")
     #
-    #     voice2.source.volume = volumeValue / 100
+    #     #voice2.source.volume = volumeValue / 100
+    #     voice2.source.volume = discord.PCMVolumeTransformer(voice2.source, volume=volumeValue / 100)
     #     await ctx.send(f"New volume is {volumeValue}%")
 
     def after(self, voice2):
@@ -169,6 +175,6 @@ class music(commands.Cog):
                 pass
 
 
-def setup(client):
+async def setup(client):
     # Adds music cog to main client
-    client.add_cog(music(client))
+    await client.add_cog(music(client))

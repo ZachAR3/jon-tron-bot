@@ -1,10 +1,13 @@
 import discord
+import asyncio
 from discord.ext import commands, tasks
 import os
 
 global audio_over
 
-client = commands.Bot(case_insensitive=True, command_prefix=["jon ", "JON ", "Jon ", "J", "j"])
+intents = discord.Intents().all()
+
+client = commands.Bot(case_insensitive=True, command_prefix=["jon ", "JON ", "Jon ", "J", "j"], intents=intents)
 player = {}
 
 
@@ -15,7 +18,7 @@ async def on_ready():  # prints bot is online when powered on
     print(f"{client.user.name} is online")
 
 
-@client.command() # returns bot ping
+@client.command()  # returns bot ping
 async def ping(ctx):
     await ctx.channel.purge(limit=1)
     await ctx.send(f"Pong! {round(client.latency * 1000)}ms", delete_after=15)
@@ -42,9 +45,15 @@ async def begone(ctx):
     await client.close()
 
 
-for filename in os.listdir("./cogs"):
-    if filename.endswith(".py"):
-        client.load_extension(f"cogs.{filename[:-3]}")
+# Checks cog directory and loads all files ending in .py as cogs
+async def load_cogs():
+    for filename in os.listdir("./cogs"):
+        if filename.endswith(".py"):
+            await client.load_extension(f"cogs.{filename[:-3]}")
 
 
-client.run("replace with bot id")  # starts the bot
+async def main():
+    await load_cogs()
+    await client.start(token) #starts the bot (replace token with a string of your discord bot token
+
+asyncio.run(main())

@@ -24,5 +24,5 @@ class logs(commands.Cog):
         await ctx.send(file=file, delete_after=30)
 
 
-def setup(client):
-    client.add_cog(logs(client))
+async def setup(client):
+    await client.add_cog(logs(client))

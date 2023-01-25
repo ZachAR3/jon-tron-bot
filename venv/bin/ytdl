@@ -1,4 +1,4 @@
-#!/home/zach/PycharmProjects/Jon-Tron-Bot-Public/venv/bin/python
+#!/mnt/Productivity/Coding/Python/jon-tron-bot/venv/bin/python
 
 """ pafy - Command Line Downloader Tool - ytdl.
 
@@ -19,7 +19,7 @@ with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 from __future__ import print_function, unicode_literals
-import pafy
+import replit_pafy
 import sys
 import os
 

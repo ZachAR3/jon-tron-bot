@@ -37,5 +37,5 @@ class unban_kickCL(commands.Cog):
         await ctx.send(f"{ctx.author.mention} Kicked {member.mention} for {reason}", delete_after=15)
 
 
-def setup(client):
-    client.add_cog(unban_kickCL(client))
+async def setup(client):
+    await client.add_cog(unban_kickCL(client))
